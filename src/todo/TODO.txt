@@ -1,0 +1,28 @@
+﻿UWAGA!  wszystko co leci do Word MUSI BYC W UNICODE nie w QString!!!
+
+--w WordContainer.exportWords() jest takie słabe otwieranie pliku, dopisywanie BOM'a zamykanie go, a potem
+otwieranie go jeszcze raz (tym razem z 'utf-8'), żeby dopisać słowa, może da się to jakoś bardziej elegancko
+załatwić
+
+--w pokazywniu odpowiedzi można by wywalić te różnokolorowe przcinki i zamienic na czarne
+
+OPCJE:
+-- zaznaczaj cale wiersze lub pojedyncze komorki
+-- wylaczenie podswietlania powtorzen
+
+-- drukowanie w formie ściągi
+
+-- jednak koniecznie zamienic te gwiazdki na indeksy gorne
+
+-- zeby stare pliki dzialaly na WordTesterLinux trzeba zmienic w plikach pkl iWordClass i
+    iWordContainer na itopWordClass i itopWordContainer
+
+-- niech zmiany sie zapisuja w komorce tylko po enterze, a nie po kliknieciu gdzie indziej (costam guru HardcodedSoftware)
+
+-- undo redo dla wordsTable, potrzebny bedzie stos na ktorzy wrzucamy operacje. podobno wszystkie operacje oprocz dragNdrop'u przechodza przez setData
+
+-- czasem w testdialogu kolor sie zmienia jak sie przejdzie do konca lini, potem enter, a potem nastepna odpowiedz sie pisze na czerwono
+
+-- dodac opcje w context menu, a tam (added on date, last modified, weight itd), w context menu tez sortowanie po dacie itd
+
+-- chowanie tego panelu po prawej

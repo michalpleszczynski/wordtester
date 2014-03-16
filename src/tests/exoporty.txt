@@ -1,0 +1,3 @@
+﻿a - znacznenie1 [kontekst1], znaczenie2 [kontekst2]
+b - znacznie1 [kontekst1], znaczenie2 [kontekst3], znaczenie3
+c - znacznie [kontekst]
